@@ -1,0 +1,202 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h2 {
+    color: #871785;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #871785;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #aa39a8;
+}
+
+/* Cancel Button */
+.cancel-button {
+    display: inline-block;
+    background-color: #ff83fd; /* Light gray background */
+    color: #ffddfc; /* Dark text color */
+    padding: 10px 20px; /* Padding for the button */
+    text-decoration: none; /* Remove underline */
+    border: 1px solid #f9bdf3; /* Border for the button */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for the Cancel Button */
+.cancel-button:hover {
+    background-color: #aa39a8; /* Darker gray on hover */
+    color: white; /* White text on hover */
+}
+
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #c459c0;
+    text-align: left;
+}
+
+table th {
+    background-color: #f9bdf3;
+}
+
+/* Link Styles */
+a {
+    color: #871785;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Links */
+a.button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #aa39a8;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+a.button:hover {
+    background-color: #871785;
+}
+
+/* Centering Elements */
+.center {
+    text-align: center;
+}
+/* Center the form */
+.login-form {
+    max-width: 400px;
+    margin: 50px auto; /* Center horizontally and add spacing from top */
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form inputs */
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style submit button */
+.login-form input[type="submit"] {
+    background-color: #aa39a8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #871785;
+}
+
+/* Style the "Register here" link */
+.register-link {
+    text-align: center; /* Center the text */
+    margin-top: 15px;
+}
+
+.register-link a {
+    color: #871785;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #871785;
+}
+/* Logout button container */
+.logout-container, .back-container {
+    text-align: center;
+    margin-bottom: 20px 0;
+}
+
+/* Logout button styling */
+.logout-button {
+    background-color: #871785;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #871785;
+}
+/* Success/Error Messages */
+p {
+    text-align: center;
+    font-size: 16px;
+}
+p.success {
+    color: green;
+    font-weight: bold;
+}
+
+p.error {
+    color: red;
+    font-weight: bold;
+}
